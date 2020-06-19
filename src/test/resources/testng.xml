@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HW">
+<!--    <test name="VK">
+        <classes>
+            <class name="hw9.VK.VKTest"/>
+        </classes>
+    </test>
+    <test name="Calculator">
+        <classes>
+            <class name="hw9.Calculator.CalculatorTest"/>
+        </classes>
+    </test>-->
+    <test name="Listener">
+        <classes>
+            <class name="hw9.Listener.ClassWithTests"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="hw9.Listener.ListenerTest"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+</suite>
