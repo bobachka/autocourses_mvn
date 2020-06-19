@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employees>
+    <employee>
+        <name>Alies Zahorski</name>
+        <position>doctor</position>
+        <department>rheumatology</department>
+        <term>23</term>
+    </employee>
+    <employee>
+        <name>Janka Huba</name>
+        <position>doctor</position>
+        <department>pulmonology</department>
+        <term>34</term>
+    </employee>
+    <employee>
+        <name>Danila Vieza</name>
+        <position>nurse</position>
+        <department>cardiology</department>
+        <term>13</term>
+    </employee>
+    <employee>
+        <name>Saska Volhin</name>
+        <position>doctor</position>
+        <department>gastroenterology</department>
+        <term>28</term>
+    </employee>
+    <employee>
+        <name>Michalina Raubic</name>
+        <position>nurse</position>
+        <department>pulmonology</department>
+        <term>15</term>
+    </employee>
+</employees>
